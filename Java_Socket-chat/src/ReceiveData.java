@@ -1,5 +1,3 @@
-
-
 import javax.swing.*;
 import java.awt.*;
 import java.io.InputStream;
@@ -9,7 +7,7 @@ public class ReceiveData extends Thread {
     public void run(){
         try {
             if(!SocketData.getInstance().isConnected()){
-                System.out.println("\u001B[1m"+"\u001B[31m" + "[Error] ?„œë²„ê? ?—°ê²°ë˜?–´?ˆì§??•Š?Šµ?‹ˆ?‹¤." + "\u001B[0m");
+                System.out.println("\u001B[1m"+"\u001B[31m" + "[Error] ?ï¿½ï¿½ë²„ï¿½? ?ï¿½ï¿½ê²°ë˜?ï¿½ï¿½?ï¿½ï¿½ï¿½??ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½." + "\u001B[0m");
                 return;
             }
 

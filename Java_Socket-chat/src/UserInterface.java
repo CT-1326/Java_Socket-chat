@@ -1,5 +1,3 @@
-
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -54,7 +52,7 @@ public class UserInterface extends JFrame {
             colorPanel.add(colorBtn[i]);
         }
 
-        eraser = new JButton("ì§??š°ê°?");
+        eraser = new JButton("ï¿½??ï¿½ï¿½ï¿½?");
         eraser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

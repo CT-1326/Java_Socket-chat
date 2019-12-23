@@ -1,5 +1,3 @@
-
-
 import java.io.Serializable;
 
 public class PaintData implements Serializable {

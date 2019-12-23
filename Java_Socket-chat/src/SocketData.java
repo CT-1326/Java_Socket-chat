@@ -1,5 +1,3 @@
-
-
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -52,7 +50,7 @@ public class SocketData {
     }
 
     public boolean isConnected(){
-        System.out.println("¼­¹öÁ¢¼Ó¼º°ø!");
+        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¼ï¿½ï¿½ï¿½!");
         if(socket==null) return false;
         return socket.isConnected();
     }
